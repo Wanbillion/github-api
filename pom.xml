@@ -35,7 +35,7 @@
     <spring.boot.version>3.3.5</spring.boot.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spotbugs-maven-plugin.version>4.8.6.4</spotbugs-maven-plugin.version>
-    <spotbugs.version>4.8.6</spotbugs.version>
+    <spotbugs.version>4.9.0</spotbugs.version>
     <spotbugs-maven-plugin.failOnError>true</spotbugs-maven-plugin.failOnError>
     <hamcrest.version>3.0</hamcrest.version>
     <okhttp3.version>4.12.0</okhttp3.version>
@@ -47,8 +47,8 @@
     <jacoco.haltOnFailure>false</jacoco.haltOnFailure>
     <jjwt.suite.version>0.12.6</jjwt.suite.version>
 
-    <jacoco.surefire.argLine />
-    <surefire.argLine />
+    <jacoco.surefire.argLine/>
+    <surefire.argLine/>
   </properties>
 
   <build>
@@ -344,10 +344,10 @@
             <importOrder>
               <file>${basedir}/src/build/eclipse/eclipse.importorder</file>
             </importOrder>
-            <removeUnusedImports />
+            <removeUnusedImports/>
 
-            <trimTrailingWhitespace />
-            <endWithNewline />
+            <trimTrailingWhitespace/>
+            <endWithNewline/>
 
           </java>
         </configuration>
@@ -392,7 +392,7 @@
             </dependency>
           </oldVersion>
           <parameter>
-            <breakBuildOnBinaryIncompatibleModifications>true</breakBuildOnBinaryIncompatibleModifications> -->
+            <breakBuildOnBinaryIncompatibleModifications>true</breakBuildOnBinaryIncompatibleModifications> --&gt;
             <!-- <breakBuildBasedOnSemanticVersioning>true</breakBuildBasedOnSemanticVersioning> -->
             <onlyModified>true</onlyModified>
             <includeSynthetic>true</includeSynthetic>
